@@ -16,6 +16,4 @@ RUN mv composer.phar /usr/local/bin/composer
 
 RUN apt-get install -y cron
 
-USER 1000:1000
-
 WORKDIR /var/www
